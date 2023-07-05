@@ -1,0 +1,25 @@
+.content-box {
+  box-sizing: border-box;
+  width: min(100%, 650px);
+  height: min(100vh, 450px);
+  border: 1px solid #d1d1d1;
+  border-radius: 5px;
+  background-color: #fff;
+  padding: 2em;
+  display: grid;
+  gap: 1.5em;
+  text-align: center;
+}
+
+input {
+  padding: .5em 1.5em .5em .5em;
+  border: 1px solid #d1d1d1;
+  border-radius: 5px;
+}
+
+.link {
+  appearance: none;
+  text-decoration: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
